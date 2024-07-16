@@ -78,11 +78,10 @@ WSGI_APPLICATION = 'shopify.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'shopifya',
-        'USER': 'root',
-        'PASSWORD': 'root',
-        'HOST': 'localhost',
-        'PORT': '3307',
+        'NAME': 'bakapanda4$shopify',
+        'USER': 'bakapanda4',
+        'PASSWORD': 'tiger@123',
+        'HOST': 'bakapanda4.mysql.pythonanywhere-services.com',
     }
 }
 
